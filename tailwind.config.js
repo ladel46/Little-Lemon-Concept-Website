@@ -9,6 +9,9 @@ module.exports = {
       xl: "1440px",
     },
     extend: {
+      animation: {
+        "spin-slow": "spin 100s linear infinite",
+      },
       fontSize: {
         xxl: "1.4rem",
       },
