@@ -22,10 +22,12 @@ module.exports = {
         Sbage: "#FBDABB",
         Swhite: "#EDEFEE",
         Sgray: "#333333",
+        Lgreen: "#96ada5",
+        Lyellow: "#fbeda7",
       },
       fontFamily: {
         primary: ["Markazi Text"],
-        seconday: ["Karla"],
+        secondary: ["Karla"],
       },
     },
   },

@@ -7,8 +7,8 @@ export default function Hero() {
     // Hero section
     <section id="hero">
       {/* flex container for hero section */}
-      <div className=" flex relative overflow-hidden relative w-full justify-around h-[600px] bg-Sgray sm:space-x-[100px] lg:-space-x-[700px]">
-        <div className="flex flex-col ml-[100px] ">
+      <div className="  flex relative flex-wrap overflow-hidden relative w-full justify-around -space-y-[10px]  h-[880px] bg-Sgray sm:-space-x-[100px] lg:-space-x-[700px]">
+        <div className="flex flex-col  ml-[100px] ">
           <h1 className="text-[80px] text-Pyellow font-primary ">
             Little Lemon
           </h1>
@@ -22,7 +22,7 @@ export default function Hero() {
               online or reserve a table Little lemon is the best place for your
               most delicious needs!
             </p>
-            <div className=" mt-[100px]">
+            <div className=" mt-[70px]">
               <a
                 href="#"
                 className="py-3 px-10 rounded-full font-primary text-[20px]  bg-Pyellow hover:bg-Sorange hover:text-Swhite"
@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
         </div>
         {/* spinning lemon picture */}
-        <div className=" animate-spin-slow -mr-[300px]  ">
+        <div className=" ">
           <img src={Lemon} width={"800px"} />
         </div>
       </div>
