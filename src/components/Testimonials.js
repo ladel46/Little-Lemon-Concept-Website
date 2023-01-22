@@ -6,7 +6,7 @@ export default function Testimonials() {
   return (
     <section id="testiomonials">
       {/* div for tastiomnial section */}
-      <div className=" relative  mx-auto mt-[30px]  rounded-md bg-gradient-to-r from-Lyellow to-Lgreen w-[90vw] p-10">
+      <div className=" relative  mx-auto mt-[10px]  rounded-md bg-gradient-to-r from-Lyellow to-Lgreen w-[99vw] p-10">
         <h1 className="font-primary -mt-[30px] -mb-[10px] text-Sgray text-[60px] w-[100%] text-center">
           Testemionials
         </h1>
@@ -16,7 +16,7 @@ export default function Testimonials() {
           </h1>
         </button>
         {/* div for the temtemional cards  */}
-        <div className="flex flex-row flex-wrap justify-around">
+        <div className="flex flex-row flex-wrap  justify-around">
           <TestimonialCard
             Name={TestimonialData[0].Name}
             Image={TestimonialData[0].Image}
