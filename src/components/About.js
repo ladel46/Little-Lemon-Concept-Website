@@ -3,8 +3,11 @@ import AboutImage from "./imgs/AboutImage.png";
 
 export default function About() {
   return (
+    // section for About part of the website
     <section id="about">
-      <div className="flex  py-[80px] flew-row justify-around container mx-auto">
+      {/* flex box for the about secion */}
+      <div className="flex   py-[80px] flew-row justify-around container mx-auto">
+        {/* div container for the resturant name and info */}
         <div className="flex flex-col  ml-[100px] ">
           <h1 className="text-[90px]  text-Pyellow font-primary ">
             Little Lemon
@@ -22,6 +25,7 @@ export default function About() {
             </p>
           </div>
         </div>
+        {/* div for images */}
         <div className="relative flex-flex-col">
           <img src={AboutImage} width={"500px"} alt="" />
         </div>

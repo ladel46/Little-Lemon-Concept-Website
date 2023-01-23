@@ -7,7 +7,7 @@ export default function Hero() {
     // Hero section
     <section id="hero">
       {/* flex container for hero section */}
-      <div className="  flex relative flex-wrap overflow-hidden relative w-full justify-around -space-y-[10px]  h-[880px] bg-Sgray sm:-space-x-[100px] lg:-space-x-[700px]">
+      <div className="  flex relative flex-wrap overflow-hidden relative w-full justify-around  -space-y-[10px]  h-[880px] bg-Pgreen sm:-space-x-[100px] lg:-space-x-[700px]">
         <div className="flex flex-col  ml-[100px] ">
           <h1 className="text-[80px] text-Pyellow font-primary ">
             Little Lemon

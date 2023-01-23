@@ -6,12 +6,12 @@ export default function Testimonials() {
   return (
     <section id="testiomonials">
       {/* div for tastiomnial section */}
-      <div className=" relative  mx-auto mt-[10px]  rounded-md bg-gradient-to-r from-Lyellow to-Lgreen w-[99vw] p-10">
-        <h1 className="font-primary -mt-[30px] -mb-[10px] text-Sgray text-[60px] w-[100%] text-center">
+      <div className=" relative  mx-auto mt-[5px]  rounded-md bg-gradient-to-r from-Lyellow to-Lgreen w-[99vw] p-10">
+        <h1 className="font-primary -mt-[30px] -mb-[25px] text-Sgray text-[60px] w-[100%] text-center">
           Testemionials
         </h1>
         <button variant="contained">
-          <h1 className="absolute text-end top-[40px] right-[30px] font-primary  -mt-[30px] mb-[10px] text-Sgray text-[30px] ">
+          <h1 className="absolute text-end top-[40px] hover:underline hover:text-Pyellow right-[30px] font-primary  -mt-[10px] mb-[10px] text-Sgray text-[30px] ">
             More
           </h1>
         </button>
