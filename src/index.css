@@ -1,4 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,500;1,600;1,700;1,800&family=Markazi+Text:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&family=Sofia+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,700;1,800;1,900&display=swap');
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: black;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle{
+  transform: translateY(7px);
+}
+
+.hamburger-top{
+  transform: translateY(14px);
+}
+
+.open{
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top{
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+.open .hamburger-middle{
+  display: none;
+}
+.open .hamburger-bottom{
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;

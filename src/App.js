@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main>
+      <main className="relative">
         <Hero></Hero>
         <Highlights></Highlights>
         <Testimonials></Testimonials>

@@ -7,22 +7,22 @@ export default function Hero() {
     // Hero section
     <section id="hero">
       {/* flex container for hero section */}
-      <div className="  flex relative flex-wrap overflow-hidden relative w-full justify-around  -space-y-[10px]  h-[880px] bg-Pgreen sm:-space-x-[100px] lg:-space-x-[700px]">
-        <div className="flex flex-col  ml-[100px] ">
-          <h1 className="text-[80px] text-Pyellow font-primary ">
+      <div className="  flex relative  overflow-hidden  relative w-full justify-around  -space-y-[10px]  h-[880px] bg-Pgreen xlg:-space-x-[350px]  xl:-space-x-[700px]">
+        <div className="flex flex-col items-center  relative md:items-end md:ml-[100px] ">
+          <h1 className="text-[60px] sm:text-[80px] text-Pyellow font-primary ">
             Little Lemon
           </h1>
-          <h2 className="text-[50px] -mt-[50px] text-Pyellow font-primary text-end  ">
+          <h2 className="text-[40px] sm:text-[50px] -mt-[30px] sm:-mt-[50px] text-Pyellow font-primary text-end  ">
             Chicago
           </h2>
-          <div className="mt-5">
-            <p className="text-Swhite  w-[350px] font-secondary text-[20px] text-medium mt">
+          <div className="md:mt-5">
+            <p className="text-Swhite text-center md:text-start w-[320px] sm:w-[350px] font-secondary text-[20px] text-medium mt">
               Located in London, little lemon provides you with the most you
               with the best dishes around the world, with the option to order
               online or reserve a table Little lemon is the best place for your
               most delicious needs!
             </p>
-            <div className=" mt-[70px]">
+            <div className="flex mt-[40px] justify-center md:justify-start md:mt-[60px]">
               <a
                 href="#"
                 className="py-3 px-10 rounded-full font-primary text-[20px]  bg-Pyellow hover:bg-Sorange hover:text-Swhite"
@@ -33,8 +33,13 @@ export default function Hero() {
           </div>
         </div>
         {/* spinning lemon picture */}
-        <div className=" ">
-          <img src={Lemon} width={"800px"} />
+        <div className="flex flex-col hidden md:justify-center md: md:block  ">
+          <img
+            src={Lemon}
+            className={
+              "md:mt-[100px] lg:mt-[60px] md:min-w-[450px] lg:min-w-[600px] md:w-[500px] lg:w-[600px] xl:w-[800px] xl:mt-0"
+            }
+          />
         </div>
       </div>
     </section>

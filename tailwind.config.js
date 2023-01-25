@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     screens: {
       sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
+      md: "780px",
+      lg: "980px",
+      xlg: "1440px",
+      xl: "1800px",
     },
     extend: {
       animation: {
