@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <header>
       {/* flex container for header */}
-      <div className=" container relative z-10 bg-white md:justify-around px-4 md:px-0 w-[full]  py-3 flex  mx-auto">
+      <div className=" container relative z-10 bg-white md:justify-around px-4 md:px-0 w-[95vw]  py-3 flex  mx-auto">
         {/* logo */}
         <img width={"150px"} src={Logo} />
         <Navbar></Navbar>

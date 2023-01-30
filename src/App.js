@@ -1,19 +1,19 @@
 import "./App.css";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Highlights from "./components/Highlights";
-import Testimonials from "./components/Testimonials";
-import About from "./components/About";
+import { Routes, Route, Navigate, Link } from "react-router-dom";
+import Home from "./components/Pages/Home";
+import Booking from "./components/Pages/Booking";
+
 import Footer from "./components/Footer";
 function App() {
   return (
     <>
       <Header></Header>
       <main className="relative">
-        <Hero></Hero>
-        <Highlights></Highlights>
-        <Testimonials></Testimonials>
-        <About></About>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/booking" element={<Booking />}></Route>
+        </Routes>
       </main>
       <Footer></Footer>
     </>
