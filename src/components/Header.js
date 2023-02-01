@@ -4,8 +4,11 @@ import Humburger from "./imgs/🦆 icon _hamburger menu_.svg";
 import Navbar from "./Navbar";
 import MobileMenu from "./MobileMenu";
 import { AnimatePresence } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
+  const navigate = useNavigate();
+
   const [showMenu, setShowMenu] = React.useState(false);
   const HandleClick = () => {
     setShowMenu(!showMenu);
@@ -15,7 +18,13 @@ export default function Header() {
       {/* flex container for header */}
       <div className=" container relative z-10 bg-white md:justify-around px-4 md:px-0 w-[95vw]  py-3 flex  mx-auto">
         {/* logo */}
-        <img width={"150px"} src={Logo} />
+        <button
+          onClick={() => {
+            navigate("/");
+          }}
+        >
+          <img width={"150px"} src={Logo} />
+        </button>
         <Navbar></Navbar>
 
         <button

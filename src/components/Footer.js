@@ -2,20 +2,53 @@ import React from "react";
 import Logo1 from "./imgs/Logo.svg";
 import Logo2 from "./imgs/WhiteLogo.jpg";
 import FooterElement from "./FooterElement";
+import { useNavigate } from "react-router-dom";
+
 export default function Footer() {
+  const navigate = useNavigate();
+
   return (
     // section for the footer section of the site
     <footer>
       {/* flex container for footer element rows */}
       <div className="flex flex-col md:flex-row py-[15px] md:pt-[40px] items-center justify-around bg-Pgreen w-full space-y-[10px] md:space-y-0">
-        <img src={Logo2} width={"100px"} alt="" />
+        <button
+          onClick={() => {
+            navigate("/");
+          }}
+        >
+          <img src={Logo2} width={"100px"} alt="" />
+        </button>
         <div className="flex flex-row md:flex-col  mt-[40px] space-x-[10px] md:space-x-0">
-          <FooterElement Element={"Home"}></FooterElement>
-          <FooterElement Element={"About"}></FooterElement>
-          <FooterElement Element={"Menu"}></FooterElement>
-          <FooterElement Element={"Reservation"}></FooterElement>
-          <FooterElement Element={"Order"}></FooterElement>
-          <FooterElement Element={"Login"}></FooterElement>
+          <button
+            onClick={() => {
+              navigate("/");
+            }}
+          >
+            <FooterElement Element={"Home"}></FooterElement>
+          </button>
+          <button>
+            <FooterElement Element={"About"}></FooterElement>
+          </button>
+          <button>
+            <FooterElement Element={"Menu"}></FooterElement>
+          </button>
+
+          <button
+            onClick={() => {
+              navigate("/booking");
+            }}
+          >
+            <FooterElement Element={"Reservation"}></FooterElement>
+          </button>
+
+          <button>
+            <FooterElement Element={"Order"}></FooterElement>
+          </button>
+
+          <button>
+            <FooterElement Element={"Login"}></FooterElement>
+          </button>
         </div>
         <h4 className=" text-start md:hidden  right-[30px] font-primary   mb-[10px] text-Swhite text-[25px] ">
           Contact Us

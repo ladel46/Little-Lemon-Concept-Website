@@ -10,6 +10,7 @@ import chairRight from "./imgs/chairRight.png";
 import chairUp from "./imgs/chairUp.png";
 
 export default function ResponsiveTable(props) {
+  // animations for seats + table changes
   const animation = {
     initial: { scale: 0.7, opacity: 0, x: 0, y: "-30%" },
     animate: { scale: 1, opacity: 1, x: 1, y: 0 },
@@ -30,10 +31,11 @@ export default function ResponsiveTable(props) {
   };
 
   const table = (param) => {
+    // a switch for all 10 tables (could be improved)
     switch (param) {
       case 1:
         return (
-          <div className="flex flex-col items-center space-y-3">
+          <div className="flex flex-col  items-center w-[600px] space-y-3">
             <motion.div {...animation}>
               <img
                 src={chairUp}
@@ -50,7 +52,7 @@ export default function ResponsiveTable(props) {
         );
       case 2:
         return (
-          <div className="flex flex-col items-center space-y-3">
+          <div className="flex flex-col items-center w-[600px] space-y-3">
             <motion.div {...animation}>
               <img
                 src={chairUp}
@@ -79,21 +81,19 @@ export default function ResponsiveTable(props) {
         );
       case 3:
         return (
-          <div className="flex flex-col items-center space-y-3">
-            <div className="flex flex-row space-x-[20px]">
+          <div className="flex flex-col items-center w-[600px] space-y-3">
+            <div className="flex flex-row space-x-[20px] lg:space-x-[20px]">
               <motion.div {...animation}>
                 <img
                   src={chairUp}
-                  className={"-mb-[200px] ]"}
-                  width={"70px"}
+                  className={"-mb-[200px] w-[60px] lg:w-[70px]"}
                   alt=""
                 />
               </motion.div>
               <motion.div {...animation}>
                 <img
                   src={chairUp}
-                  className={"-mb-[200px] ]"}
-                  width={"70px"}
+                  className={"-mb-[200px] w-[60px] lg:w-[70px]"}
                   alt=""
                 />
               </motion.div>
@@ -104,14 +104,17 @@ export default function ResponsiveTable(props) {
                 {...animationTable}
                 className="relative z-10"
               >
-                <img src={tableMd} width={"350px"} alt="" />
+                <img
+                  src={tableMd}
+                  className={"w-[300px] lg:w-[350px]"}
+                  alt=""
+                />
               </motion.div>
             </div>
             <motion.div {...animation}>
               <img
                 src={chairDown}
-                className={"-mt-[90px] ]"}
-                width={"70px"}
+                className={"-mt-[75px] lg:-mt-[90px]  w-[60px] lg:w-[70px]"}
                 alt=""
               />
             </motion.div>
@@ -119,7 +122,7 @@ export default function ResponsiveTable(props) {
         );
       case 4:
         return (
-          <div className="flex flex-col items-center space-y-3">
+          <div className="flex flex-col items-center w-[600px] space-y-3">
             <div className="flex flex-row space-x-[20px]">
               <motion.div {...animation}>
                 {" "}
@@ -174,7 +177,7 @@ export default function ResponsiveTable(props) {
         );
       case 5:
         return (
-          <div className="flex flex-col items-center space-y-3">
+          <div className="flex flex-col items-center w-[600px] space-y-3">
             <div className="flex flex-row space-x-[20px]">
               <motion.div {...animation}>
                 {" "}
@@ -238,7 +241,7 @@ export default function ResponsiveTable(props) {
         );
       case 6:
         return (
-          <div className="flex flex-col items-center space-y-3">
+          <div className="flex flex-col items-center w-[600px] space-y-3">
             <div className="flex flex-row space-x-[20px]">
               <motion.div {...animation}>
                 {" "}
@@ -311,7 +314,7 @@ export default function ResponsiveTable(props) {
         );
       case 7:
         return (
-          <div className="flex flex-col items-center space-y-3">
+          <div className="flex flex-col items-center w-[600px] space-y-3">
             <div className="flex flex-row space-x-[20px]">
               <motion.div {...animation}>
                 {" "}
@@ -393,7 +396,7 @@ export default function ResponsiveTable(props) {
         );
       case 8:
         return (
-          <div className="flex flex-col items-center space-y-3">
+          <div className="flex flex-col items-center w-[600px] space-y-3">
             <div className="flex flex-row space-x-[20px]">
               <motion.div {...animation}>
                 {" "}
@@ -484,7 +487,7 @@ export default function ResponsiveTable(props) {
         );
       case 9:
         return (
-          <div className="flex flex-col items-center space-y-3">
+          <div className="flex flex-col items-center w-[600px] space-y-3">
             <div className="flex flex-row space-x-[20px]">
               <motion.div {...animation}>
                 {" "}
@@ -584,7 +587,7 @@ export default function ResponsiveTable(props) {
         );
       case 10:
         return (
-          <div className="flex flex-col items-center space-y-3">
+          <div className="flex flex-col  w-[600px] items-center space-y-3">
             <div className="flex flex-row space-x-[20px]">
               <motion.div {...animation}>
                 {" "}

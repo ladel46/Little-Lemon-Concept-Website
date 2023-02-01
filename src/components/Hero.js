@@ -1,8 +1,10 @@
 import { findByLabelText } from "@testing-library/react";
 import React from "react";
 import Lemon from "./imgs/Lemon4.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
+  const navigate = useNavigate();
   return (
     // Hero section
     <section id="hero">
@@ -23,12 +25,14 @@ export default function Hero() {
               most delicious needs!
             </p>
             <div className="flex mt-[40px] justify-center md:justify-start md:mt-[60px]">
-              <a
-                href="#"
+              <button
+                onClick={() => {
+                  navigate("/booking");
+                }}
                 className="py-3 px-10 rounded-full font-primary text-[20px]  bg-Pyellow hover:bg-Sorange hover:text-Swhite"
               >
                 Reserve a table
-              </a>
+              </button>
             </div>
           </div>
         </div>

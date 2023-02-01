@@ -1,27 +1,31 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
+  const navigate = useNavigate();
   return (
     // navbar menu
     <nav className="hidden  text-Pgreen  items-center   text-xxl  font-primary font-bold md:flex md:space-x-10 lg:space-x-20 ">
-      <a href="#" className={"hover:text-Sbage"}>
+      <button
+        onClick={() => {
+          navigate("/");
+        }}
+        className={"hover:text-Sbage"}
+      >
         Home
-      </a>
-      <a href="#" className={"hover:text-Sbage "}>
-        About
-      </a>
-      <a href="#" className={"hover:text-Sbage "}>
-        Menu
-      </a>
-      <a href="#" className={"hover:text-Sbage "}>
+      </button>
+      <button className={"hover:text-Sbage "}>About</button>
+      <button className={"hover:text-Sbage "}>Menu</button>
+      <button
+        onClick={() => {
+          navigate("/booking");
+        }}
+        className={"hover:text-Sbage "}
+      >
         Reservation
-      </a>
-      <a href="#" className={"hover:text-Sbage "}>
-        Order
-      </a>
-      <a href="#" className={"hover:text-Sbage "}>
-        Login
-      </a>
+      </button>
+      <button className={"hover:text-Sbage "}>Order</button>
+      <button className={"hover:text-Sbage "}>Login</button>
     </nav>
   );
 }
