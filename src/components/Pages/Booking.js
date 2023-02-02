@@ -65,16 +65,31 @@ export default function Booking() {
         <h2 className=" text-[30px] lg:text-[40px] text-center sm:text-[40px] text-Pgreen border-t-[1px] border-Sgray font-primary ">
           Please select number of seats needed
         </h2>
-        <h2 className="text-[40px] sm:text-[40px] text-Sgray font-bold font-primary ">
-          {seats}
-        </h2>
-        <div className="container flex flex-row  justify-around mt-[25px] scale-[1] lg:scale-[1.1] lg:-space-x-[500px] mx-auto mt-[10px] h-[220px] w-[100%] lg:w-[70%]">
-          <button className="scale-[0.8] lg:scale-[1]" onClick={Reduce}>
+        <div className="flex flex-row items-center space-x-[50px]">
+          <button className="scale-[0.7]  block xl:hidden" onClick={Reduce}>
+            <MinusIcon color={"#333333"} boxSize={"40px"}></MinusIcon>
+          </button>
+          <h2 className="text-[40px] sm:text-[40px] text-Sgray font-bold font-primary ">
+            {seats}
+          </h2>
+          <button className="scale-[0.7]  block xl:hidden" onClick={Increase}>
+            <AddIcon color={"#333333"} boxSize={"40px"}></AddIcon>
+          </button>
+        </div>
+
+        <div className="container flex flex-row  justify-around mt-[25px] scale-[1] xl:scale-[1.1] xl:-space-x-[500px] mx-auto mt-[10px] h-[220px] w-[100%] lg:w-[70%]">
+          <button
+            className="scale-[0.8] lg:scale-[1] hidden xl:block"
+            onClick={Reduce}
+          >
             <MinusIcon color={"#495E57"} boxSize={"40px"}></MinusIcon>
           </button>
           {/* a responsive table that changes number of seats based on seats needed */}
           <ResponsiveTable seats={seats}></ResponsiveTable>
-          <button className="scale-[0.8] lg:scale-[1]" onClick={Increase}>
+          <button
+            className="scale-[0.8] lg:scale-[1] hidden xl:block"
+            onClick={Increase}
+          >
             <AddIcon color={"#495E57"} boxSize={"40px"}></AddIcon>
           </button>
         </div>

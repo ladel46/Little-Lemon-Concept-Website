@@ -32,7 +32,7 @@ export default function Form(props) {
     // form section
     <form onSubmit={formik.handleSubmit} autoComplete="off">
       {/* flex container for the form elements */}
-      <div className="w-[1000px]  mt-[50px] h-[650px] border-Pgreen border-[5px] drop-shadow-2xl rounded-[10%] flex flex-col items-center justify-center  bg-white">
+      <div className="w-[90vw] xlg:w-[1000px]  mt-[50px] h-[500px] sm:h-[600px] md:h-[650px] border-Pgreen border-[5px] drop-shadow-2xl rounded-[5%] xlg:rounded-[10%] flex flex-col items-center justify-center  bg-white">
         {/* display different elements based if form was submitted or not  */}
         {submitted ? (
           <>
@@ -48,9 +48,9 @@ export default function Form(props) {
         ) : (
           <div
             key="modal"
-            className="  flex flex-col items-center justify-center  bg-white"
+            className="  flex flex-col scale-[0.75] sm:scale-[0.9] md:scale-[1] items-center justify-center  bg-white"
           >
-            <h2 className=" sm:text-[40px] text-Pgreen border-Sgray font-primary font-bold ">
+            <h2 className=" text-[30px] lg:text-[40px] text-Pgreen border-Sgray font-primary font-bold ">
               fill the information below
             </h2>
             <label>
