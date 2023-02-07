@@ -1,6 +1,6 @@
 // array of hightled dishes
-import greekSalad from "./imgs/greek salad.jpg";
-import Bruchetta from "./imgs/bruchetta.svg";
+import greekSalad from "./imgs/Salad.JPG";
+import Bruchetta from "./imgs/bruchettaa.jpg";
 import lemonD from "./imgs/lemon dessert.jpg";
 import fishTacos from "./imgs/FishTacos.JPG";
 // database for highlighted dishes

@@ -36,7 +36,7 @@ export default function Footer() {
 
           <button
             onClick={() => {
-              navigate("/booking");
+              navigate("/Little-Lemon-Concept-Website/booking");
             }}
           >
             <FooterElement Element={"Reservation"}></FooterElement>

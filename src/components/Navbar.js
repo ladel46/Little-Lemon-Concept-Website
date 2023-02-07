@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="hidden  text-Pgreen  items-center   text-xxl  font-primary font-bold md:flex md:space-x-10 lg:space-x-20 ">
       <button
         onClick={() => {
-          navigate("Little-Lemon-Concept-Website/");
+          navigate("/Little-Lemon-Concept-Website");
         }}
         className={"hover:text-Sbage"}
       >
@@ -18,7 +18,7 @@ export default function Navbar() {
       <button className={"hover:text-Sbage "}>Menu</button>
       <button
         onClick={() => {
-          navigate("/booking");
+          navigate("/Little-Lemon-Concept-Website/booking");
         }}
         className={"hover:text-Sbage "}
       >

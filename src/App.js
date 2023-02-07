@@ -12,10 +12,13 @@ function App() {
       <main className="relative">
         <Routes>
           <Route
-            path="Little-Lemon-Concept-Website/"
+            path="/Little-Lemon-Concept-Website"
             element={<Home />}
           ></Route>
-          <Route path="/booking" element={<Booking />}></Route>
+          <Route
+            path="/Little-Lemon-Concept-Website/booking"
+            element={<Booking />}
+          ></Route>
         </Routes>
       </main>
       <Footer></Footer>

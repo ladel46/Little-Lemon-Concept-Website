@@ -27,7 +27,7 @@ export default function Hero() {
             <div className="flex mt-[40px] justify-center md:justify-start md:mt-[60px]">
               <button
                 onClick={() => {
-                  navigate("/booking");
+                  navigate("/Little-Lemon-Concept-Website/booking");
                 }}
                 className="py-3 px-10 rounded-full font-primary text-[20px]  bg-Pyellow hover:bg-Sorange hover:text-Swhite"
               >

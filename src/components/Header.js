@@ -20,7 +20,7 @@ export default function Header() {
         {/* logo */}
         <button
           onClick={() => {
-            navigate("Little-Lemon-Concept-Website/");
+            navigate("/Little-Lemon-Concept-Website/");
           }}
         >
           <img width={"150px"} src={Logo} />

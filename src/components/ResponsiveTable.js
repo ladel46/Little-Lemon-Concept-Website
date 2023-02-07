@@ -8,6 +8,7 @@ import chairDown from "./imgs/chairDown.png";
 import chairLeft from "./imgs/chairLeft.png";
 import chairRight from "./imgs/chairRight.png";
 import chairUp from "./imgs/chairUp.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function ResponsiveTable(props) {
   // animations for seats + table changes
@@ -45,7 +46,7 @@ export default function ResponsiveTable(props) {
               />
             </motion.div>
             <motion.div key="table1" {...animationTable}>
-              <img src={tableSm} width={"220px"} alt="" />
+              <LazyLoadImage src={tableSm} width={"220px"} alt="" />
             </motion.div>
             <div className=" -mt-[90px] w-[50px]  text-white"></div>
           </div>
@@ -67,7 +68,7 @@ export default function ResponsiveTable(props) {
               {...animationTable}
               className={"relative z-10"}
             >
-              <img src={tableSm} width={"220px"} alt="" />
+              <LazyLoadImage src={tableSm} width={"220px"} alt="" />
             </motion.div>
             <motion.div {...animation}>
               <img
@@ -96,7 +97,7 @@ export default function ResponsiveTable(props) {
                 {...animationTable}
                 className="relative z-10"
               >
-                <img src={tableMd} className={"w-[350px]"} alt="" />
+                <LazyLoadImage src={tableMd} className={"w-[350px]"} alt="" />
               </motion.div>
             </div>
             <motion.div {...animation}>
@@ -124,7 +125,7 @@ export default function ResponsiveTable(props) {
                 className="relative z-10"
               >
                 {" "}
-                <img src={tableMd} className={"w-[350px]"} alt="" />
+                <LazyLoadImage src={tableMd} className={"w-[350px]"} alt="" />
               </motion.div>
             </div>
             <div className="flex flex-row space-x-[20px]">
@@ -163,7 +164,11 @@ export default function ResponsiveTable(props) {
             <div className="flex flex-row  -space-x-[65px] mr-[15px]  space-y-0">
               <motion.div {...animationChairLeft}>
                 {" "}
-                <img src={chairLeft} className={"mt-[75px] w-[80px]"} alt="" />
+                <LazyLoadImage
+                  src={chairLeft}
+                  className={"mt-[75px] w-[80px]"}
+                  alt=""
+                />
               </motion.div>
               <motion.div
                 key="table2"
@@ -233,7 +238,7 @@ export default function ResponsiveTable(props) {
                 {...animationTable}
                 className="relative z-10"
               >
-                <img src={tableMd} width={"350px"} alt="" />
+                <LazyLoadImage src={tableMd} width={"350px"} alt="" />
               </motion.div>
               <motion.div {...animationChairLeft}>
                 {" "}
@@ -315,7 +320,7 @@ export default function ResponsiveTable(props) {
                 {...animationTable}
                 className="relative z-10"
               >
-                <img src={tableLg} width={"400px"} alt="" />
+                <LazyLoadImage src={tableLg} width={"400px"} alt="" />
               </motion.div>
               <motion.div {...animationChairLeft}>
                 {" "}
@@ -397,7 +402,7 @@ export default function ResponsiveTable(props) {
                 {...animationTable}
                 className="relative z-10"
               >
-                <img src={tableLg} width={"400px"} alt="" />
+                <LazyLoadImage src={tableLg} width={"400px"} alt="" />
               </motion.div>
               <motion.div {...animationChairLeft}>
                 {" "}
@@ -497,7 +502,7 @@ export default function ResponsiveTable(props) {
                 {...animationTable}
                 className="relative z-10"
               >
-                <img src={tableXl} width={"500px"} alt="" />
+                <LazyLoadImage src={tableXl} width={"500px"} alt="" />
               </motion.div>
               <motion.div {...animationChairLeft}>
                 {" "}
@@ -597,7 +602,7 @@ export default function ResponsiveTable(props) {
                 {...animationTable}
                 className="relative z-10"
               >
-                <img src={tableXl} width={"500px"} alt="" />
+                <LazyLoadImage src={tableXl} width={"500px"} alt="" />
               </motion.div>
               <motion.div {...animationChairLeft}>
                 {" "}
