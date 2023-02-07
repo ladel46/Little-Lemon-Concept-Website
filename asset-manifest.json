@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/Little-Lemon-Concept-Website/static/css/main.5a0effc1.css",
-    "main.js": "/Little-Lemon-Concept-Website/static/js/main.ca667c18.js",
-    "static/js/787.8ee0cb60.chunk.js": "/Little-Lemon-Concept-Website/static/js/787.8ee0cb60.chunk.js",
+    "main.js": "/Little-Lemon-Concept-Website/static/js/main.f52e1eae.js",
     "static/media/bruchetta.svg": "/Little-Lemon-Concept-Website/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
     "static/media/greek salad.jpg": "/Little-Lemon-Concept-Website/static/media/greek salad.bed423a1fab5b210e347.jpg",
     "static/media/AboutImage.png": "/Little-Lemon-Concept-Website/static/media/AboutImage.95d43af72b1c1244c3c6.png",
@@ -23,11 +22,10 @@
     "index.html": "/Little-Lemon-Concept-Website/index.html",
     "static/media/🦆 icon _hamburger menu_.svg": "/Little-Lemon-Concept-Website/static/media/🦆 icon _hamburger menu_.0da6f67ced800ab909f63d5144de37ee.svg",
     "main.5a0effc1.css.map": "/Little-Lemon-Concept-Website/static/css/main.5a0effc1.css.map",
-    "main.ca667c18.js.map": "/Little-Lemon-Concept-Website/static/js/main.ca667c18.js.map",
-    "787.8ee0cb60.chunk.js.map": "/Little-Lemon-Concept-Website/static/js/787.8ee0cb60.chunk.js.map"
+    "main.f52e1eae.js.map": "/Little-Lemon-Concept-Website/static/js/main.f52e1eae.js.map"
   },
   "entrypoints": [
     "static/css/main.5a0effc1.css",
-    "static/js/main.ca667c18.js"
+    "static/js/main.f52e1eae.js"
   ]
 }
