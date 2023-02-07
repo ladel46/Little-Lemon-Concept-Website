@@ -13,7 +13,7 @@ export default function Form(props) {
     setSubmitted(true);
     formik.resetForm();
     setTimeout(() => {
-      navigate("https://ladel46.github.io/Little-Lemon-Concept-Website/");
+      navigate("/Little-Lemon-Concept-Website/");
     }, 3000);
   };
   // formik object to handle form state changes + validation
