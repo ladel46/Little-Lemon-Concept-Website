@@ -1,7 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function MobileMenu() {
+  const navigate = useNavigate();
+
   return (
     <motion.div
       key="Modal"
@@ -18,18 +21,30 @@ export default function MobileMenu() {
     >
       <div>
         <nav className=" absolute container  text-Pgreen bg-white items-center z-10 text-xxl drop-shadow-xl md:hidden font-primary font-bold flex flex-col mx-auto  py-4 mt-[53px] space-y-5 w-[55vw] ">
-          <a href="#" className={"hover:text-Sbage"}>
+          <button
+            onClick={() => {
+              navigate("/Little-Lemon-Concept-Website");
+            }}
+            className={"hover:text-Sbage"}
+          >
+            {" "}
             Home
-          </a>
+          </button>
           <a href="#" className={"hover:text-Sbage "}>
             About
           </a>
           <a href="#" className={"hover:text-Sbage "}>
             Menu
           </a>
-          <a href="#" className={"hover:text-Sbage "}>
+          <button
+            onClick={() => {
+              navigate("/Little-Lemon-Concept-Website/booking");
+            }}
+            className={"hover:text-Sbage "}
+          >
+            {" "}
             Reservation
-          </a>
+          </button>
           <a href="#" className={"hover:text-Sbage "}>
             Order
           </a>
