@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="hidden  text-Pgreen  items-center   text-xxl  font-primary font-bold md:flex md:space-x-10 lg:space-x-20 ">
       <button
         onClick={() => {
-          navigate("/");
+          navigate("Little-Lemon-Concept-Website/");
         }}
         className={"hover:text-Sbage"}
       >

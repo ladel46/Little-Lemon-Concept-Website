@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row py-[15px] md:pt-[40px] items-center justify-around bg-Pgreen w-full space-y-[10px] md:space-y-0">
         <button
           onClick={() => {
-            navigate("/");
+            navigate("Little-Lemon-Concept-Website/");
           }}
         >
           <img src={Logo2} width={"100px"} alt="" />
@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex flex-row md:flex-col  mt-[40px] space-x-[10px] md:space-x-0">
           <button
             onClick={() => {
-              navigate("/");
+              navigate("Little-Lemon-Concept-Website/");
             }}
           >
             <FooterElement Element={"Home"}></FooterElement>

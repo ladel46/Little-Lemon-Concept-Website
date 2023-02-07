@@ -11,7 +11,10 @@ function App() {
       <Header></Header>
       <main className="relative">
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route
+            path="Little-Lemon-Concept-Website/"
+            element={<Home />}
+          ></Route>
           <Route path="/booking" element={<Booking />}></Route>
         </Routes>
       </main>
