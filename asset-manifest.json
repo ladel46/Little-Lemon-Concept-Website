@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Little-Lemon-Concept-Website/static/css/main.5a0effc1.css",
-    "main.js": "/Little-Lemon-Concept-Website/static/js/main.1d0a5dc8.js",
+    "main.js": "/Little-Lemon-Concept-Website/static/js/main.40042aa4.js",
     "static/media/AboutImage.png": "/Little-Lemon-Concept-Website/static/media/AboutImage.95d43af72b1c1244c3c6.png",
     "static/media/Lemon4.png": "/Little-Lemon-Concept-Website/static/media/Lemon4.ae0c11493848da7498d1.png",
-    "static/media/tableXl.png": "/Little-Lemon-Concept-Website/static/media/tableXl.4769ae3349979ed88f9c.png",
-    "static/media/tableLg.png": "/Little-Lemon-Concept-Website/static/media/tableLg.57be0c2a950f414faa6b.png",
-    "static/media/tableMd.png": "/Little-Lemon-Concept-Website/static/media/tableMd.3d9a93e540f1d8a1d843.png",
-    "static/media/tableSm.png": "/Little-Lemon-Concept-Website/static/media/tableSm.79d54ef4b901e3b6deb1.png",
     "static/media/Food.jpg": "/Little-Lemon-Concept-Website/static/media/Food.06ef2e44da895ca24964.jpg",
     "static/media/bruchettaa.jpg": "/Little-Lemon-Concept-Website/static/media/bruchettaa.c71010016f188168ea20.jpg",
     "static/media/Logo.svg": "/Little-Lemon-Concept-Website/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
     "static/media/Salad.JPG": "/Little-Lemon-Concept-Website/static/media/Salad.00f8cac6d6853b48f4d8.JPG",
     "static/media/FishTacos.JPG": "/Little-Lemon-Concept-Website/static/media/FishTacos.26fe3452212bb50bde16.JPG",
+    "static/media/tableMd.png": "/Little-Lemon-Concept-Website/static/media/tableMd.c94a77f81898f61c80a8.png",
+    "static/media/tableXl.png": "/Little-Lemon-Concept-Website/static/media/tableXl.d377d884ae6c015b7e5f.png",
     "static/media/WhiteLogo.jpg": "/Little-Lemon-Concept-Website/static/media/WhiteLogo.603805c19798bf07869a.jpg",
+    "static/media/tableLg.png": "/Little-Lemon-Concept-Website/static/media/tableLg.8df4b33cc6f01fa94969.png",
+    "static/media/tableSm.png": "/Little-Lemon-Concept-Website/static/media/tableSm.15434566eeccf2ca9883.png",
     "static/media/Haithem.JPG": "/Little-Lemon-Concept-Website/static/media/Haithem.be8c6878cce5442bb496.JPG",
     "static/media/Zack.JPG": "/Little-Lemon-Concept-Website/static/media/Zack.cf436210543a766a604c.JPG",
     "static/media/Jhon.JPG": "/Little-Lemon-Concept-Website/static/media/Jhon.9f83b688b40976e45e11.JPG",
@@ -22,10 +22,10 @@
     "index.html": "/Little-Lemon-Concept-Website/index.html",
     "static/media/🦆 icon _hamburger menu_.svg": "/Little-Lemon-Concept-Website/static/media/🦆 icon _hamburger menu_.0da6f67ced800ab909f63d5144de37ee.svg",
     "main.5a0effc1.css.map": "/Little-Lemon-Concept-Website/static/css/main.5a0effc1.css.map",
-    "main.1d0a5dc8.js.map": "/Little-Lemon-Concept-Website/static/js/main.1d0a5dc8.js.map"
+    "main.40042aa4.js.map": "/Little-Lemon-Concept-Website/static/js/main.40042aa4.js.map"
   },
   "entrypoints": [
     "static/css/main.5a0effc1.css",
-    "static/js/main.1d0a5dc8.js"
+    "static/js/main.40042aa4.js"
   ]
 }
